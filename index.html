@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html long="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY OWN WEBSITE</title>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+  <div class="logo">
+    <h1>MOGES BEKELE</h1>
+    <h3>FRONTEND WEB DEVELOPER</h3>
+  </div>
+  <div class="navbar" id="navbar">
+     <a href="#">HOME</a>
+    
+        <div class="dropdown">
+          <button class="dropdownbtn">SKILLS</button>
+          <div class="dropdown-list">
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#">BOOTSTRAP</a>
+            <a href="#">JAVASCRIPT</a>
+            <a href="#">REACT</a>
+          </div>
+          
+        </div>
+     <a href="#">ABOUT</a>
+     <a href="#">CONTACT</a>
+     
+     <a href="javascript:void(00);"
+     style="font-size: 15px;" class="icon" onclick="myfunction()">&#9776;</a>
+
+  </div>
+  <div class="cont">
+    <h1>create your website</h1>
+    <p class="para">Hi My Name is Moges Bekele<br> Im: 
+      <span>frontend website developer</span> </p>
+    <button class="learn"><a href="#">CONTACT ME</a></button>
+  </div>
+  <h3 class="h3">PROJECTS HAVE BEEN DONE</h3>
+
+<script>
+  function myfunction(){
+    var x= document.getElementById('mynavbar')
+    if(x.className===navbar){
+      x.className+= "responsive"
+    }else {
+      x.className="navbar";
+    }
+  }
+  
+
+  // ideas on project 
+  //building the landing page for the company
+  //building a game
+  //
+
+
+
+</script> 
+
+
+
+<div style="margin-top: 500px;"></div>
+</body>
+
+</html>
+
